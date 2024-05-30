@@ -6033,23 +6033,23 @@
             },
             "data": {
                 "entityType": "Assertion",
-                "entityId": "ajtIfRtORIe9zJzwCchSqw",
-                "openBadgeId": "https://api.eu.badgr.io/public/assertions/ajtIfRtORIe9zJzwCchSqw",
-                "createdAt": "2024-05-30T07:47:00.918908085Z",
+                "entityId": "YiEVhU25QTGR4FcJlFsmPw",
+                "openBadgeId": "https://api.eu.badgr.io/public/assertions/YiEVhU25QTGR4FcJlFsmPw",
+                "createdAt": "2024-05-30T07:47:54.550999099Z",
                 "createdBy": "aS1lWKgIR4u8bGjPZUzAyg",
                 "badgeclass": "IDUsZJpNQPuiJpPwmJ8iJw",
                 "badgeclassOpenBadgeId": "https://api.eu.badgr.io/public/badges/IDUsZJpNQPuiJpPwmJ8iJw",
                 "issuer": "aS1lWKgIR4u8bGjPZUzAyg",
                 "issuerOpenBadgeId": "https://api.eu.badgr.io/public/issuers/aS1lWKgIR4u8bGjPZUzAyg",
-                "image": "https://api.eu.badgr.io/public/assertions/ajtIfRtORIe9zJzwCchSqw/image",
+                "image": "https://api.eu.badgr.io/public/assertions/YiEVhU25QTGR4FcJlFsmPw/image",
                 "recipient": {
-                    "identity": "sha256$0fe8916a1defec5641282825a06f06274d6f234ed4339897bfbdc8308649f747",
+                    "identity": "sha256$38f1e55f30fc0f4b376e57912dda337f21fbba6bb71172538a827bb7b7d170cd",
                     "hashed": true,
                     "type": "url",
-                    "salt": "MaB1UBDq5VSYqV1z",
+                    "salt": "uPRqw1S1yDElS5mY",
                     "plaintextIdentity": "https://github.com/SeisSol/SeisSol.git"
                 },
-                "issuedOn": "2024-05-30T07:47:00.918912286Z",
+                "issuedOn": "2024-05-30T07:47:54.551001728Z",
                 "narrative": "SQAaaS assessment results for repository https://github.com/SeisSol/SeisSol.git (commit: 5ecc5ffbcaeaeed9764ea42635255a20c0fc533d, branch/tag: master)",
                 "evidence": [
                     {
@@ -6067,7 +6067,7 @@
                 "expires": null,
                 "extensions": {},
                 "assertionRef": {
-                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/ajtIfRtORIe9zJzwCchSqw"
+                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/YiEVhU25QTGR4FcJlFsmPw"
                 },
                 "badgeRef": {
                     "badgeUrl": "https://api.eu.badgr.io/public/badges/IDUsZJpNQPuiJpPwmJ8iJw"
@@ -6079,10 +6079,10 @@
                 "source": "local",
                 "sourceUrl": null,
                 "originalJson": null,
-                "imagePath": "uploads/badges/assertion-ajtIfRtORIe9zJzwCchSqw.png"
+                "imagePath": "uploads/badges/assertion-YiEVhU25QTGR4FcJlFsmPw.png"
             },
-            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/ajtIfRtORIe9zJzwCchSqw?identity__url=https%3A//github.com/EOSC-synergy/SeisSol.git.assess.sqaaas/commit/0b87819e2c49bc91c18f9af54ae214c96e082ff9\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/ajtIfRtORIe9zJzwCchSqw/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
-            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FajtIfRtORIe9zJzwCchSqw?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2FSeisSol.git.assess.sqaaas%2Fcommit%2F0b87819e2c49bc91c18f9af54ae214c96e082ff9&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2FSeisSol.git.assess.sqaaas%2Fcommit%2F0b87819e2c49bc91c18f9af54ae214c96e082ff9"
+            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/YiEVhU25QTGR4FcJlFsmPw?identity__url=https%3A//github.com/EOSC-synergy/SeisSol.git.assess.sqaaas/commit/0b87819e2c49bc91c18f9af54ae214c96e082ff9\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/YiEVhU25QTGR4FcJlFsmPw/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
+            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FYiEVhU25QTGR4FcJlFsmPw?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2FSeisSol.git.assess.sqaaas%2Fcommit%2F0b87819e2c49bc91c18f9af54ae214c96e082ff9&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2FSeisSol.git.assess.sqaaas%2Fcommit%2F0b87819e2c49bc91c18f9af54ae214c96e082ff9"
         }
     }
 }
