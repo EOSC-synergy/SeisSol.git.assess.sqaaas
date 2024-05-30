@@ -15,68 +15,68 @@ sqa_criteria:
     repos:
       github.com/SeisSol/SeisSol git:
         commands:
-        - /usr/bin/env sh .sqa/script.fuzzy-jade-warthog.sh
-        container: qc.acc_sloppy-cornflower-frog
+        - /usr/bin/env sh .sqa/script.homey-indigo-corgi.sh
+        container: qc.acc_sleazy-mauve-pinscher
   QC.Doc:
     repos:
       github.com/SeisSol/SeisSol find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.wheezy-heliotrope-husky.sh
-        container: qc.doc_clammy-champagne-corgi
+        - /usr/bin/env sh .sqa/script.scaly-asparagus-kudu.sh
+        container: qc.doc_craggy-lavender-cassowary
       github.com/SeisSol/SeisSol git:
         commands:
-        - /usr/bin/env sh .sqa/script.muggy-cornflower-seahorse.sh
-        container: qc.doc_flabby-white-jellyfish
+        - /usr/bin/env sh .sqa/script.sleazy-red-goose.sh
+        container: qc.doc_squirrely-burgundy-giraffe
       github.com/SeisSol/SeisSol markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.nippy-chestnut-urchin.sh
-        container: qc.doc_slimy-olive-tuatara
+        - /usr/bin/env sh .sqa/script.surly-eggplant-ostrich.sh
+        container: qc.doc_slaphappy-denim-mist
       github.com/SeisSol/SeisSol restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-purple-fly.sh
-        container: qc.doc_ready-magenta-cassowary
+        - /usr/bin/env sh .sqa/script.foggy-bistre-dingo.sh
+        container: qc.doc_chummy-teal-newfoundland
   QC.Lic:
     repos:
       github.com/SeisSol/SeisSol licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-persimmon-baboon.sh
-        container: qc.lic_geeky-myrtle-lizard
+        - /usr/bin/env sh .sqa/script.gimpy-scarlet-penguin.sh
+        container: qc.lic_droopy-denim-earwig
   QC.Met:
     repos:
       github.com/SeisSol/SeisSol cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.blurry-orange-tamarin.sh
-        container: qc.met_nippy-seashell-beagle
+        - /usr/bin/env sh .sqa/script.grumpy-zucchini-barnacle.sh
+        container: qc.met_surly-teal-chicken
   QC.Sec:
     repos:
       github.com/SeisSol/SeisSol bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.scummy-rose-peccary.sh
-        container: qc.sec_freaky-chartreuse-spaniel
+        - /usr/bin/env sh .sqa/script.breezy-carmine-vole.sh
+        container: qc.sec_fuzzy-ultramarine-drever
   QC.Sty:
     repos:
       github.com/SeisSol/SeisSol flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-taupe-squirrel.sh
-        container: qc.sty_pasty-cerise-tamarin
+        - /usr/bin/env sh .sqa/script.snappy-wheat-iguana.sh
+        container: qc.sty_zippy-saffron-mau
       github.com/SeisSol/SeisSol jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-copper-otter.sh
-        container: qc.sty_bluesy-viridian-dingo
+        - /usr/bin/env sh .sqa/script.flaky-ultramarine-macaw.sh
+        container: qc.sty_leaky-periwinkle-salamander
       github.com/SeisSol/SeisSol oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.tasty-fuchsia-elephant.sh
-        container: qc.sty_bumpy-magnolia-falcon
+        - /usr/bin/env sh .sqa/script.squirrely-myrtle-mule.sh
+        container: qc.sty_snazzy-scarlet-urchin
   QC.Uni:
     repos:
       github.com/SeisSol/SeisSol pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.clammy-buff-crane.sh
-        container: qc.uni_nippy-sapphire-markhor
+        - /usr/bin/env sh .sqa/script.nerdy-salmon-coati.sh
+        container: qc.uni_gamy-xanthic-stingray
   QC.Ver:
     repos:
       github.com/SeisSol/SeisSol get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-mustard-shrew.sh
-        container: qc.ver_queasy-aquamarine-yak
+        - /usr/bin/env sh .sqa/script.hazy-pear-monster.sh
+        container: qc.ver_seedy-buff-meerkat
 timeout: 5400
