@@ -5,5 +5,5 @@
 
 (
 cd github.com/SeisSol/SeisSol &&
-    git rev-parse --is-inside-work-tree
+    hadolint .ci/gha-cpu/Dockerfile --failure-threshold error
 )

@@ -5,5 +5,5 @@
 
 (
 cd github.com/SeisSol/SeisSol &&
-    mdl --json .
+    git rev-parse --is-inside-work-tree 
 )
