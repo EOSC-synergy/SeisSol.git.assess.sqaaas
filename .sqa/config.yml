@@ -15,72 +15,72 @@ sqa_criteria:
     repos:
       github.com/SeisSol/SeisSol git:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-silver-cuttlefish.sh
-        container: qc.acc_tasty-aqua-forest
+        - /usr/bin/env sh .sqa/script.muggy-black-bloodhound.sh
+        container: qc.acc_sickly-lime-centipede
   QC.Doc:
     repos:
       github.com/SeisSol/SeisSol find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-chartreuse-deer.sh
-        container: qc.doc_trippy-green-woodlouse
+        - /usr/bin/env sh .sqa/script.surly-green-mongoose.sh
+        container: qc.doc_droopy-ochre-cat
       github.com/SeisSol/SeisSol git:
         commands:
-        - /usr/bin/env sh .sqa/script.randy-wisteria-ostrich.sh
-        container: qc.doc_pokey-rose-clam
+        - /usr/bin/env sh .sqa/script.scanty-pumpkin-macaque.sh
+        container: qc.doc_slimy-auburn-bison
       github.com/SeisSol/SeisSol markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.randy-teal-forest.sh
-        container: qc.doc_messy-mauve-emu
+        - /usr/bin/env sh .sqa/script.skanky-white-peccary.sh
+        container: qc.doc_crappy-heliotrope-zebu
       github.com/SeisSol/SeisSol restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-rust-woodlouse.sh
-        container: qc.doc_scummy-chocolate-kudu
+        - /usr/bin/env sh .sqa/script.messy-myrtle-bonobo.sh
+        container: qc.doc_snappy-ruby-quokka
   QC.Lic:
     repos:
       github.com/SeisSol/SeisSol licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.blurry-malachite-chinook.sh
-        container: qc.lic_tasty-russet-kiwi
+        - /usr/bin/env sh .sqa/script.squeaky-tangerine-scorpion.sh
+        container: qc.lic_tasty-ivory-tetra
   QC.Met:
     repos:
       github.com/SeisSol/SeisSol cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-cornflower-buffalo.sh
-        container: qc.met_homey-pink-dollar
+        - /usr/bin/env sh .sqa/script.sleepy-aqua-leopard.sh
+        container: qc.met_queasy-silver-dalmatian
   QC.Sec:
     repos:
       github.com/SeisSol/SeisSol bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-mauve-urchin.sh
-        container: qc.sec_slimy-cinnamon-gibbon
+        - /usr/bin/env sh .sqa/script.skanky-vermilion-tamarin.sh
+        container: qc.sec_craggy-russet-opossum
   QC.Sty:
     repos:
       github.com/SeisSol/SeisSol flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.clammy-magenta-turkey.sh
-        container: qc.sty_sloppy-thistle-donkey
+        - /usr/bin/env sh .sqa/script.chewy-peach-rabbit.sh
+        container: qc.sty_tasty-copper-leopard
       github.com/SeisSol/SeisSol hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-russet-kudu.sh
-        container: qc.sty_ugly-teal-zorse
+        - /usr/bin/env sh .sqa/script.gamy-violet-deer.sh
+        container: qc.sty_nerdy-maroon-magpie
       github.com/SeisSol/SeisSol jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-blue-newt.sh
-        container: qc.sty_gummy-ivory-okapi
+        - /usr/bin/env sh .sqa/script.lovely-sapphire-mau.sh
+        container: qc.sty_zippy-platinum-seal
       github.com/SeisSol/SeisSol oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-russet-squirt.sh
-        container: qc.sty_randy-corn-gibbon
+        - /usr/bin/env sh .sqa/script.cranky-alizarin-saola.sh
+        container: qc.sty_goopy-ochre-budgerigar
   QC.Uni:
     repos:
       github.com/SeisSol/SeisSol pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-purple-hyena.sh
-        container: qc.uni_cheeky-cobalt-gorilla
+        - /usr/bin/env sh .sqa/script.pasty-orchid-zebu.sh
+        container: qc.uni_sloppy-fuchsia-avocet
   QC.Ver:
     repos:
       github.com/SeisSol/SeisSol get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.freaky-jade-pig.sh
-        container: qc.ver_sunny-rust-insect
+        - /usr/bin/env sh .sqa/script.fuzzy-aquamarine-bison.sh
+        container: qc.ver_woolly-apricot-lion
 timeout: 5400
