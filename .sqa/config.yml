@@ -15,72 +15,72 @@ sqa_criteria:
     repos:
       github.com/SeisSol/SeisSol git:
         commands:
-        - /usr/bin/env sh .sqa/script.muggy-black-bloodhound.sh
-        container: qc.acc_sickly-lime-centipede
+        - /usr/bin/env sh .sqa/script.sickly-malachite-dhole.sh
+        container: qc.acc_frumpy-dandelion-centipede
   QC.Doc:
     repos:
       github.com/SeisSol/SeisSol find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.surly-green-mongoose.sh
-        container: qc.doc_droopy-ochre-cat
+        - /usr/bin/env sh .sqa/script.skinny-persimmon-husky.sh
+        container: qc.doc_goopy-charcoal-spoonbill
       github.com/SeisSol/SeisSol git:
         commands:
-        - /usr/bin/env sh .sqa/script.scanty-pumpkin-macaque.sh
-        container: qc.doc_slimy-auburn-bison
+        - /usr/bin/env sh .sqa/script.slimy-crimson-beetle.sh
+        container: qc.doc_woozy-auburn-uakari
       github.com/SeisSol/SeisSol markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-white-peccary.sh
-        container: qc.doc_crappy-heliotrope-zebu
+        - /usr/bin/env sh .sqa/script.whiny-periwinkle-earwig.sh
+        container: qc.doc_flimsy-cerise-leopard
       github.com/SeisSol/SeisSol restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.messy-myrtle-bonobo.sh
-        container: qc.doc_snappy-ruby-quokka
+        - /usr/bin/env sh .sqa/script.thirsty-maroon-owl.sh
+        container: qc.doc_slimy-amethyst-salamander
   QC.Lic:
     repos:
       github.com/SeisSol/SeisSol licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.squeaky-tangerine-scorpion.sh
-        container: qc.lic_tasty-ivory-tetra
+        - /usr/bin/env sh .sqa/script.gloppy-periwinkle-kingfisher.sh
+        container: qc.lic_stinky-heliotrope-iguana
   QC.Met:
     repos:
       github.com/SeisSol/SeisSol cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-aqua-leopard.sh
-        container: qc.met_queasy-silver-dalmatian
+        - /usr/bin/env sh .sqa/script.hazy-pink-mau.sh
+        container: qc.met_greasy-tomato-wolverine
   QC.Sec:
     repos:
       github.com/SeisSol/SeisSol bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-vermilion-tamarin.sh
-        container: qc.sec_craggy-russet-opossum
+        - /usr/bin/env sh .sqa/script.scaly-linen-greyhound.sh
+        container: qc.sec_paltry-alizarin-sheep
   QC.Sty:
     repos:
       github.com/SeisSol/SeisSol flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-peach-rabbit.sh
-        container: qc.sty_tasty-copper-leopard
+        - /usr/bin/env sh .sqa/script.droopy-puce-snake.sh
+        container: qc.sty_trippy-crimson-panda
       github.com/SeisSol/SeisSol hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-violet-deer.sh
-        container: qc.sty_nerdy-maroon-magpie
+        - /usr/bin/env sh .sqa/script.tacky-periwinkle-catfish.sh
+        container: qc.sty_shaggy-purple-binturong
       github.com/SeisSol/SeisSol jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-sapphire-mau.sh
-        container: qc.sty_zippy-platinum-seal
+        - /usr/bin/env sh .sqa/script.geeky-linen-koala.sh
+        container: qc.sty_greasy-cinnabar-mau
       github.com/SeisSol/SeisSol oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.cranky-alizarin-saola.sh
-        container: qc.sty_goopy-ochre-budgerigar
+        - /usr/bin/env sh .sqa/script.skinny-pear-flounder.sh
+        container: qc.sty_geeky-razzmatazz-jellyfish
   QC.Uni:
     repos:
       github.com/SeisSol/SeisSol pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-orchid-zebu.sh
-        container: qc.uni_sloppy-fuchsia-avocet
+        - /usr/bin/env sh .sqa/script.snippy-maroon-harrier.sh
+        container: qc.uni_ugly-carmine-dingo
   QC.Ver:
     repos:
       github.com/SeisSol/SeisSol get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.fuzzy-aquamarine-bison.sh
-        container: qc.ver_woolly-apricot-lion
+        - /usr/bin/env sh .sqa/script.whiny-charcoal-frog.sh
+        container: qc.ver_muzzy-cardinal-oriole
 timeout: 5400
